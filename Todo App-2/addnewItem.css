@@ -1,0 +1,110 @@
+body {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.background-blur {
+  filter: blur(10px);
+}
+
+.main-heading {
+  font-family: "Roboto", sans-serif;
+  margin-left: 22rem;
+  font-size: 50px;
+}
+
+h1::before,
+h1::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.1rem solid black;
+  width: 9rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}
+
+.back-arrow {
+  font-family: "Roboto", sans-serif;
+  margin-left: 39rem;
+  color: gray;
+  font-weight: 100;
+}
+
+.card {
+  display: flexbox;
+  width: 320px;
+  height: 280px;
+  border: 1px solid tomato;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 2px 5px 15px rgb(185, 178, 178);
+}
+
+.trip-pasris {
+  color: rgb(247, 116, 93);
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.under-line {
+  margin-left: 6.6rem;
+  border-top: 1.6px solid black;
+}
+
+.completed-task {
+  color: red;
+  text-decoration: line-through;
+}
+
+.pending-task {
+  margin-right: 40px;
+}
+
+button {
+  width: 10px;
+  height: 15px;
+}
+
+.bluer-center {
+  position: absolute;
+  top: 20%;
+  right: 40%;
+}
+
+.card2 {
+  display: flexbox;
+  margin-left: 40rem;
+  border: 2px solid salmon;
+  margin-top: 40px;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.addnew-item {
+  color: tomato;
+}
+
+.first-button {
+  width: 230px;
+  height: 30px;
+  border: 1px solid salmon;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgb(173, 168, 168);
+  margin-left: 15px;
+  background-color: white;
+}
+
+.second-button {
+  width: 80px;
+  height: 30px;
+  color: white;
+  border: 1px solid salmon;
+  background-color: red;
+  border-radius: 50px;
+}

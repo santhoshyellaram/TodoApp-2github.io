@@ -1,0 +1,66 @@
+body {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.main-heading {
+  font-family: "Roboto", sans-serif;
+  margin-left: 22rem;
+  font-size: 50px;
+}
+
+h1::before,
+h1::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.1rem solid black;
+  width: 9rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}
+
+.back-arrow {
+  font-family: "Roboto", sans-serif;
+  margin-left: 39rem;
+  color: gray;
+  font-weight: 100;
+}
+
+.card {
+  display: flexbox;
+  width: 320px;
+  height: 280px;
+  border: 1px solid tomato;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 2px 5px 15px rgb(185, 178, 178);
+}
+
+.trip-pasris {
+  color: rgb(247, 116, 93);
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.under-line {
+  margin-left: 6.6rem;
+  border-top: 1.6px solid black;
+}
+
+.completed-task {
+  color: red;
+  text-decoration: line-through;
+}
+
+.pending-task {
+  margin-right: 40px;
+}
+
+button {
+  width: 10px;
+  height: 15px;
+}
